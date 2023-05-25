@@ -1,0 +1,7 @@
+ body{
+    background-image: url('https://cdn.pixabay.com/photo/2019/10/20/21/41/illustration-4564730_1280.jpg');
+    background-size:1920px 975px;
+    ;
+ }
+
+ /*Nesta aula tambem foi utilizado o background repeat, com auxilio dele é possivel fazer com que a imagem de fundo se repita ou não. Também foi utilizado o marador repeat-x (a imagem se repete apenas em linhas) e repeat y (a imagem se repete em coluna.) */
