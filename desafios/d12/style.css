@@ -1,9 +1,15 @@
+:root{
+    --fonte_padrao:verdana, geneva, tahoma, sans-serif;
+    --font_titulos: 'Passion One', cursive;
+    --font_textos:'Sriracha', curvise;
+}
 *{
     margin: 0px;
     padding: 0px;
 }
 html, body{
-    background-color: darkgray;
+    font-family: var(--fonte_padrao);
+    color: darkgray;
     min-height: 100vh;
 }
  header{
@@ -13,8 +19,10 @@ html, body{
 
  }
 header > h1 {
+    font-family:var(--font_titulos);
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 8vw;
 }
 header > p{
     padding-bottom: 50px;
@@ -33,6 +41,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font_textos);
+    font-size: 3.5vw;
 }
 section.normal{
     background-color: white;
@@ -41,10 +51,12 @@ section.normal{
 section.imagem{
     background-color: rgb(53, 51, 51);
     color: white;
+
 }
 section.imagem > p{
-    width: 400px;
+   display: inline-block;
     background-color: rgba(0, 0, 0, 0.329);
+    padding: 5px;
 
 }
 footer{
