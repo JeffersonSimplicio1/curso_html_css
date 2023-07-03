@@ -19,14 +19,14 @@ body{
 
 }
 header{
-    background-image: url(img/header400x.png);
+    
     text-align: center;
     background-repeat: no-repeat;
     background-position: right;
-    
-    
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2))
 
 }
+
 header > h1{
     font-family: var(--fontTitulos);
     font-size: 3em;
