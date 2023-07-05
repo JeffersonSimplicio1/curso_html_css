@@ -81,6 +81,9 @@ nav > a{
     
 
 }
+article{
+    padding-bottom: 50px;
+}
 article > h3{
     font-size: 1.8em;
     color: var(--cor5);
@@ -99,6 +102,7 @@ article > p{
 article a {
     text-decoration: none;
     font-family: var(--fontext);
+    font-weight: bold;
 
 }
 .mapa{
@@ -107,13 +111,43 @@ article a {
     border: 2px solid transparent;
     border-radius: 10px;
     box-shadow: 0px 5px 10px var(--cor5);
+    
 }
 
 a:hover{
     color: #038c5e;
     text-decoration: underline;
     font-size: bolder;}
-    footer{
-        text-align: center;
-        padding: 5px;
-    }
+   
+
+aside{
+    border: 1px solid var(--cor4);
+    background-color: #038c5e;
+    border-radius: 20px 20px 0px 0px;
+    margin: -40px;
+    padding: 0px;
+
+}
+aside p{
+    font-family: var(--fontext);
+    text-indent: 16px;
+    text-align: justify;
+    padding: 10px;
+    line-height: 28px;
+    background-color: #025c3e;
+    border-radius: 20px 20px 0px 0px;
+}
+aside img{
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 20px;
+}
+aside img:hover{
+    border: 2px solid var(--cor5);
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    font-weight: bolder;
+}
