@@ -94,6 +94,9 @@ article > p{
     text-align: justify;
 
 }
+iframe{
+    text-align: center;
+}
 aside > h1{
     font-family: var(--fontTitulos);
     font-size: 2em;
