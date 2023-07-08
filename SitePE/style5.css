@@ -94,8 +94,15 @@ ul{
 
 }
 ul li{
-    padding: 10px;
     font-family: var(--fontext);
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color: #038C7F;
+    font-weight: bold;
 }
 footer{
     text-align: center;
