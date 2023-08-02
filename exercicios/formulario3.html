@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    
+</head>
+<body>
+    <p>
+        <label for="usu1">Aluno: </label>
+        <input type="text" name="usuario" id="usu1">
+        
+    </p>
+
+    <input type="radio" name="opc" id="fem" >
+    <label for="fem">Mulher</label>
+     <input type="radio" name="opc" id="mas">
+     <label for="mas">Homem</label>
+     <input type="radio" name="opc" id="nada">
+     <label for="nada">Não informar</label>
+    
+    <p>
+        <label for="dt1">Data de Nascimento: </label>
+        <input type="date" name="dt" id="dt1">
+    </p>
+    <p>
+        <label for="nt1">Nota 01: </label>
+        <input type="number" name="nt" id="nt1" required min="0" max="10" placeholder="0 a 10" step="0.1">
+    </p>
+    <p>
+        <label for="nt2">Nota 02: </label>
+        <input type="number" name="nt2" id="nt2"  required min="0" max="10" placeholder="0 a 10" step="0.1">
+    </p>
+    <p>
+        <label for="med1">Média: </label>
+        <input type="number" name="med1" id="med1" placeholder="0 a 10" step="0.1">
+    </p>
+    <p>
+        <label for="per">Inicio do Periodo Letivo: </label>
+        <input type="month" name="per" id="per" value="2023-01"><br><br>
+        <label for="per1">Final do Periodo Letivo: </label>
+        <input type="month" name="per1" id="per1" value="2023-12">
+    </p>
+    <p>
+        <label for="time1">Horario das Aulas: </label>
+        <input type="time" name="time1" id="time1"> 
+        <label for="fim"> até: </label>
+        <input type="time" name="fim" id="fim">
+    </p>
+    <p>
+        <p>Turno: </p>
+        <input type="radio" name="opc1" id="man">
+        <label for="man">Manhã </label>
+        <input type="radio" name="opc1" id="tar">
+        <label for="tar">Tarde </label>
+        <input type="radio" name="opc1" id="noi">
+        <label for="noi">Noite </label>
+
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+
+
+    
+</body>
+</html>
