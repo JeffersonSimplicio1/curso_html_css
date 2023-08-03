@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de matricula</title>
+</head>
+<body>
+    <form action="cadastro.php" autocomplete="off">
+        <h1>Formulário de Matricula para novos alunos</h1>
+        <fieldset>
+                <p>
+                    <label for="nome1">Nome do Aluno: </label>
+                    <input type="text" name="nome1" id="nome1" required>
+                    <br><br>
+                    <label for="data1">Data de Nascimento: </label>
+                    <input type="date" name="data1" id="data1">
+                    <label for="idade1">   Idade: </label>
+                    <input type="number" name="idade1" id="idade1"><br><br>
+                    <label for="serie">Curso: </label>
+                    <input type="text" name="serie" id="serie"><br><br>
+                    <label for="tele">Telefone 1: </label>
+                    <input type="tel" name="tele" id="tele">
+                    <label for="tele1">Telefone 2: </label>
+                    <input type="tel" name="tele1" id="tele1">
+                    <br><br>
+                    <label for="1email">Email do aluno: </label>
+                    <input type="email" name="1email" id="1email">
+                
+                </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <p>
+                <label for="resp1">Responsável: </label>
+                <input type="text" name="resp1" id="resp1" required>
+                <br>
+                <input type="radio" name="resp" id="m">
+                <label for="m">Mãe</label>
+                <input type="radio" name="resp" id="p">
+                <label for="m">Pai</label>
+                <input type="radio" name="resp" id="out">
+                <label for="m">Outros</label>
+            </p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
