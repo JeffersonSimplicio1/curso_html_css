@@ -9,40 +9,58 @@
     <form action="cadastro.php" autocomplete="off">
         <h1>Formulário de Matricula para novos alunos</h1>
         <fieldset>
+            <legend>Dados Pessoais</legend>
                 <p>
                     <label for="nome1">Nome do Aluno: </label>
                     <input type="text" name="nome1" id="nome1" required>
-                    <br><br>
-                    <label for="data1">Data de Nascimento: </label>
-                    <input type="date" name="data1" id="data1">
+                    <br><br></p>
+                    <p>
+                        <label for="data1">Data de Nascimento: </label>
+                        <input type="date" name="data1" id="data1">
+                    </p>
                     <label for="idade1">   Idade: </label>
                     <input type="number" name="idade1" id="idade1"><br><br>
                     <label for="serie">Curso: </label>
                     <input type="text" name="serie" id="serie"><br><br>
                     <label for="tele">Telefone 1: </label>
-                    <input type="tel" name="tele" id="tele">
+                    <input type="tel" name="tele" id="tele" pattern="^[0-9]{4}-[0-9]{4}$" placeholder="xxxx-xxxx">
                     <label for="tele1">Telefone 2: </label>
-                    <input type="tel" name="tele1" id="tele1">
+                    <input type="tel" name="tele1" id="tele1" pattern="^[0-9]{4}-[0-9]{4}$" placeholder="xxxx-xxxx">
                     <br><br>
                     <label for="1email">Email do aluno: </label>
                     <input type="email" name="1email" id="1email">
+                    <label for="cor1">Cor preferida: </label>
+                    <input type="color" name="cor" id="cor1">
                 
-                </p>
         </fieldset>
         <br>
         <fieldset>
+            <legend>Dados dos Responsáveis</legend>
             <p>
                 <label for="resp1">Responsável: </label>
                 <input type="text" name="resp1" id="resp1" required>
-                <br>
+                <br><br>
                 <input type="radio" name="resp" id="m">
                 <label for="m">Mãe</label>
                 <input type="radio" name="resp" id="p">
                 <label for="m">Pai</label>
                 <input type="radio" name="resp" id="out">
                 <label for="m">Outros</label>
+                
             </p>
+            <p>
+                <label for="tel3">Telefone: </label>
+                <input type="tel" name="tel3" id="tel3" pattern="^[0-9]{4}-[0-9]{4}$" required placeholder="xxxx-xxxx">
+                <label for="mail">Email: </label>
+                <input type="email" name="mail" id="mail">
+            </p>
+           
         </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+        </p>
     </form>
     
 </body>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Usando o Option no formulário</h1>
+    <form action="cadastro.php">
+        <p>
+            <label for="times1">Times de Futebol: </label>
+            <select name="times" id="times1">
+                <option value="" selected>--Escolha--</option>
+                <option value="ATL">Atletico de Madrid</option>
+                <option value="BOD">Borussia</option>
+                <option value="COR">Corinthians</option>
+                <option value="DIN">Dinamo</option>
+                <option value="ESP">Espanha</option>
+                <option value="FIN">Finlandia</option>
+                <option value="GRA">Granada</option>
+                <option value="HOL">Holanda</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="mens">Mensagem: </label><br>
+            <textarea name="men" id="mens" cols="30" rows="10" placeholder="Escreva sua mensagem aqui!!"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    
+
+    </form>
+    
+</body>
+</html>
