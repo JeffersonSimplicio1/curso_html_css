@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro familiar</h1>
+    <form action="teste.php">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="inom" id="inome" required minlength="3" maxlength="40">
+                <label for="icolor">Cor preferida: </label>
+                <input type="color" name="icolor" id="icolor">
+            </p>
+            <p>
+                <label for="date">Data de Nacimento: </label>
+                <input type="date" name="date" id="date">
+            </p>
+            <p>
+                <label for="imom">Nome da Mãe: </label>
+                <input type="text" name="imom" id="imom">
+                <label for="icolor1">Cor preferida: </label>
+                <input type="color" name="icolor1" id="icolor1">
+            </p>
+            <p>
+                <label for="idad">Nome do Pai: </label>
+                <input type="text" name="idad" id="idad">
+                <label for="icolor2">Cor preferida: </label>
+                <input type="color" name="icolor2" id="icolor2">
+            </p>
+            <p>
+                <label for="itel">Telefone para contato: </label>
+                <input type="tel" name="itel" id="itel" pattern="^[0-9]{5}-[0-9]{4}$" required placeholder="xxxxx-xxxx">
+            </p>
+            <p>
+                <label for="foto">Adicione uma foto:</label>
+                <input type="file" name="foto" id="foto">
+            </p>
+        </fieldset>
+        <p>
+            <label for="time">Time do coração: </label>
+            <select name="time" id="time">
+                <option value="select">---Escolha---</option>
+            <option value="STN">Santa cruz</option>
+            <option value="SPT">Sport</option>
+            <option value="NAU">Nautico</option>
+            <option value="RET">Retro</option>
+            <option value="FLA">Flamengo</option>
+            <option value="SPT1">São Paulo</option>
+            <option value="ATL">Atletico Mineiro</option>
+            <option value="OUT">Outro</option>
+            </select>
+            
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        
+
+
+    </form>
+    
+</body>
+</html>
