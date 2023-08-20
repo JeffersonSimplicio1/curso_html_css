@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) and  (max-width: 992px){
+    body,html{background-color: yellow;
+    }
+    h1{
+        background-color: white;
+    }
+}
+
+@media screen and (min-width:992px){
+    body,html {
+        background-color: red;
+    }
+}
